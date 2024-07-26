@@ -1,0 +1,75 @@
+{
+    "files.exclude": {
+        "_build": true,
+        "_opam": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.formatOnSave": true,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "other": "off",
+        "strings": "off"
+    },
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Solarized Light",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "shift+y"
+            ],
+            "after": [
+                "y",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "["
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<Enter>"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+                "editor.action.formatDocument",
+                "editor.action.marker.nextInFiles"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ]
+}
