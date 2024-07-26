@@ -16,7 +16,7 @@
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
+    "vim.hlsearch": false,
     "vim.leader": "<space>",
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
@@ -29,6 +29,14 @@
             "after": [
                 "y",
                 "$"
+            ]
+        },
+        {
+            "before": [
+                "s",
+            ],
+            "after": [
+                "<c-w>"
             ]
         },
         {
