@@ -11,8 +11,8 @@
     "editor.autoClosingOvertype": "never",
     "editor.autoClosingQuotes": "never",
     "editor.tabCompletion": "on",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.suggestOnTriggerCharacters": false,
+    //    "editor.acceptSuggestionOnCommitCharacter": false,
+    //    "editor.suggestOnTriggerCharacters": false,
     "editor.wordBasedSuggestions": "off",
     "editor.quickSuggestions": {
         "comments": "off",
